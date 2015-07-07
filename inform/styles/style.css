@@ -1,0 +1,23 @@
+#up{
+	width:60px;
+	height:60px;
+	position:fixed;
+	bottom:50px;
+	left:20px;
+	background-color:#000000;
+	border-radius:30px; 
+}
+#down{
+	width:60px;
+	height:60px;
+	position:fixed;
+	bottom:50px;
+	left:90px;
+	background-color:#000000;
+	border-radius:30px;
+}
+.pPageScroll{
+	color:#FFFFFF;
+	font:bold 12pt 'Comic Sans MS';
+	text-align:center;
+}

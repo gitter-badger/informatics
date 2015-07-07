@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo-2.1.1/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript">
+			function valid()
+			{
+				var state = $("input[name='sex']:cheked");
+				if(state.length == 0)
+					$("#message.text='123'");
+			}
+		</script>
+	</head>
+		
+	<body>
+		<form name="form" id="form">
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="sex" value="female"></input>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="sex" value="male"></input>
+			<br /><br />
+			<span id="message"></span>
+			
+			<input type="button" id="done" value="Done." />
+		</form>
+	</body>
+</html>
